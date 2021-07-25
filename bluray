@@ -1,0 +1,13 @@
+#!/bin/sh
+#
+# Script to autostart Blurays in MPV using MakeMkv
+
+# Options (Select the Device you want to use. Default: /dev/sr0)
+drive='/dev/sr0'
+
+# Get the current MakeMkvKey (script required)
+MakeMkvKey
+# Unlock the disk
+makemkvcon --directio -r info dev:$drive
+# Play the Bluray
+mpv bluray:///$drive
