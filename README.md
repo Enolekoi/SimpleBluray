@@ -1,4 +1,4 @@
-# SimpleBlurayMkvMPV
+# SimpleBluray
 A very simple shell script that automatically unlocks a bluray disk using MakeMkv and then plays it in MPV. 
 
 Playing a bluray in Linux (or on any operating system really) is unnessecarily complicated and annoying, so I wrote this little script which allows the user to play one by running a simple command.
